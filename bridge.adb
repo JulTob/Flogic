@@ -30,3 +30,8 @@ procedure Bridge is
   begin
      null;
      end Bridge;
+
+
+-- gnatmake -c logic.adb
+-- gnatmake -c bridge.adb
+-- gcc -shared -o libfuzzy.so bridge.o logic.o
